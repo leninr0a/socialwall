@@ -1,0 +1,156 @@
+/*========== ADMIN.php ===========*/
+*{
+    margin:0;
+    padding:0;
+}
+
+h1,h2,h3,h4,h5{
+    margin:0;
+    padding:0;
+}
+
+html{
+  height: 100%;
+}
+body {
+  min-height: 100%;
+}
+
+body{
+    background:#3f3f3f;
+}
+
+/*=====HEADER=====*/
+header{
+    padding:20px;
+    background: #55ace8;
+    
+   
+}
+.fa-instagram{
+    color:#934f99;
+}
+
+.fa-twitter{
+    color:#5ea8dc;
+}
+
+.fa-facebook{
+    color:#3b5998;
+}
+
+h1.title{
+    text-align: center;
+    color:#fff;
+    font-family: 'Lobster',cursive;
+    font-size:2.5em;
+}
+
+.admin-panel{
+    margin:20px 0 50px;
+    font-family: 'Open Sans';
+}
+.admin-panel h1,.admin-panel h3{
+    padding-bottom: 10px;
+    font-family: 'Lobster';
+}
+
+.admin-panel input{
+    margin-bottom:5px;
+    
+}
+.admin-panel .container{
+    padding:50px;
+    background:#fff;
+    color:#000;
+}
+
+.fb-section input.btn{
+    background-color:#3b5998;
+    color:#fff;
+}
+
+.tw-section input.btn{
+    background-color:#5ea8dc;
+    color:#fff;
+}
+
+.ig-section input.btn{
+    background-color:#934f99;
+    color:#fff;
+}
+
+.admin-panel .fa-facebook,
+.admin-panel .fa-twitter,
+.admin-panel .fa-instagram{
+    font-size:4em;
+}
+
+.tagpool{
+    width:100%;
+    padding:10px 5px;
+    min-height: 100px;
+    background:#f3f3f3;
+    margin-top:10px;
+    border: 1px dashed black;
+}
+
+.admin-panel .fa-close{
+    margin-left:3px;
+}
+
+.admin-panel .fa-close:hover{
+    cursor: pointer;
+}
+
+.admin-panel .label{
+    margin-right: 10px;
+}
+
+.label-ig{
+    background:#934f99;
+}
+
+.label-tw{
+    background:#5ea8dc;
+}
+
+.label-fb{
+    background:#3b5998;
+}
+
+.pool{
+    margin-top:10px;
+}
+.btn-launch{
+    margin-top:10px;
+    background:#3f3f3f;
+    color:white;
+}
+
+.btn-launch:hover{
+    font-weight: bold;
+    color:#fff;
+}
+
+hr{
+    padding:0px 2px;
+}
+
+.row.theme-styles{
+    background-color:#eee;
+    padding:20px 20px;
+    font-family: 'Open Sans';
+    font-weight: 100;
+}
+
+.theme-styles input{
+    margin:10px;
+}
+.row h3{
+    margin-top:20px;
+}
+
+.btn.btn-success.launcher{
+    margin-top:20px;
+}
