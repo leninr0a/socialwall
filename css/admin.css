@@ -65,17 +65,20 @@ h1.title{
     color:#000;
 }
 
-.fb-section input.btn{
+.fb-section input.btn,
+.fb-section input.btn:active{
     background-color:#3b5998;
     color:#fff;
 }
 
-.tw-section input.btn{
+.tw-section input.btn,
+.tw-section input.btn:active{
     background-color:#5ea8dc;
     color:#fff;
 }
 
-.ig-section input.btn{
+.ig-section input.btn,
+.ig-section input.btn:active{
     background-color:#934f99;
     color:#fff;
 }
@@ -153,4 +156,27 @@ hr{
 
 .btn.btn-success.launcher{
     margin-top:20px;
+}
+
+input[type='range']{
+    cursor:pointer;
+    background: red;
+}
+
+#columns-row-3 div,
+#columns-row-4 div,
+#columns-row-5 div,
+#columns-row-6 div,
+#columns-row-7 div div div
+{
+    border:1px solid #fff;
+    box-sizing: border-box;
+    background:#eee;
+    color:#000;
+    font-family:'Open Sans';
+    padding:20px 0;
+}
+
+#columns-row-7 .ignore{
+    background:transparent;
 }
