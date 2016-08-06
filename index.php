@@ -36,7 +36,7 @@
     <!-- ===== PICTURES ===== -->   
     <section class="pictures" >
         <div class="container-fluid">
-               <div class="picture-mark">
+               <div class="picture-mark"  id="pic1">
              
                 <img src="images/img-1.jpg" alt="">
                 <span class="relative">
@@ -69,7 +69,7 @@
                     </span>
                 </div>
             </div>
-            <div class="picture-mark">
+            <div class="picture-mark"  id="pic2">
              
                 <img src="images/img-14.jpg" alt="">
                 <span class="relative">
@@ -102,7 +102,7 @@
                     </span>
                 </div>
             </div>
-            <div class="picture-mark">
+            <div class="picture-mark" id="pic3">
              
                 <img src="images/img-2.jpg" alt="">
                 <span class="relative">
@@ -135,7 +135,7 @@
                     </span>
                 </div>
             </div>
-             <div class="picture-mark">
+             <div class="picture-mark" id="pic4">
              
                 <img src="images/img-3.jpg" alt="">
                 <span class="relative">
@@ -168,7 +168,7 @@
                     </span>
                 </div>
             </div>
-             <div class="picture-mark">
+             <div class="picture-mark" id="pic5">
              
                 <img src="images/img-4.jpg" alt="">
                 <span class="relative">
@@ -201,7 +201,7 @@
                     </span>
                 </div>
             </div>
-             <div class="picture-mark">
+             <div class="picture-mark" id="pic6">
              
                 <img src="images/img-6.jpg" alt="">
                 <span class="relative">
@@ -234,7 +234,7 @@
                     </span>
                 </div>
             </div>
-            <div class="picture-mark">
+            <div class="picture-mark" id="pic7">
              
                 <img src="images/img-8.jpg" alt="">
                 <span class="relative">
@@ -267,7 +267,7 @@
                     </span>
                 </div>
             </div>
-              <div class="picture-mark">
+              <div class="picture-mark" id="pic8">
              
                 <img src="images/img-6.jpg" alt="">
                 <span class="relative">
@@ -300,7 +300,7 @@
                     </span>
                 </div>
             </div>
-               <div class="picture-mark">
+               <div class="picture-mark" id="pic8">
              
                 <img src="images/img-7.jpg" alt="">
                 <span class="relative">
@@ -364,7 +364,7 @@
                             </div>
                 </div>
             </div>
-               <div class="picture-mark">
+               <div class="picture-mark" id="pic9">
              
                 <img src="images/img-9.jpg" alt="">
                 <span class="relative">
@@ -397,7 +397,7 @@
                     </span>
                 </div>
             </div>
-            <div class="picture-mark">
+            <div class="picture-mark" id="pic10">
              
                 <img src="images/img-10.jpg" alt="">
                 <span class="relative">
@@ -430,7 +430,7 @@
                     </span>
                 </div>
             </div>
-             <div class="picture-mark">
+             <div class="picture-mark" id="pic11">
              
                 <img src="images/img-11.jpg" alt="">
                 <span class="relative">
@@ -463,7 +463,7 @@
                     </span>
                 </div>
             </div>
-               <div class="picture-mark">
+               <div class="picture-mark" id="pic12">
              
                 <img src="images/img-12.jpg" alt="">
                 <span class="relative">
@@ -497,7 +497,7 @@
                 </div>
             </div>
             
-             <div class="picture-mark">
+             <div class="picture-mark" id="pic13">
              
                 <img src="images/img-13.jpg" alt="">
                 <span class="relative">
@@ -530,7 +530,7 @@
                     </span>
                 </div>
             </div>
-              <div class="picture-mark">
+              <div class="picture-mark" id="pic14">
              
                 <img src="images/img-14.jpg" alt="">
                 <span class="relative">
@@ -564,7 +564,7 @@
                 </div>
             </div>
             
-        <div class="picture-mark">
+        <div class="picture-mark" id="pic15">
              
                 <img src="images/img-15.jpg" alt="">
                 <span class="relative">
@@ -664,7 +664,7 @@
         
         <!-- =============== NEW PICTURES ================== -->
         
-               <div class="picture-mark">
+               <div class="picture-mark" id="pic16">
              
                 <img src="images/img-1.jpg" alt="">
                 <span class="relative">
@@ -697,7 +697,7 @@
                     </span>
                 </div>
             </div>
-            <div class="picture-mark">
+            <div class="picture-mark" id="pic17">
              
                 <img src="images/img-2.jpg" alt="">
                 <span class="relative">
@@ -730,7 +730,7 @@
                     </span>
                 </div>
             </div>
-             <div class="picture-mark">
+             <div class="picture-mark" id="pic18">
              
                 <img src="images/img-3.jpg" alt="">
                 <span class="relative">
@@ -763,7 +763,7 @@
                     </span>
                 </div>
             </div>
-             <div class="picture-mark">
+             <div class="picture-mark" id="pic19">
              
                 <img src="images/img-4.jpg" alt="">
                 <span class="relative">
@@ -796,7 +796,7 @@
                     </span>
                 </div>
             </div>
-             <div class="picture-mark">
+             <div class="picture-mark" id="pic29">
              
                 <img src="images/img-6.jpg" alt="">
                 <span class="relative">
@@ -829,7 +829,7 @@
                     </span>
                 </div>
             </div>
-            <div class="picture-mark">
+            <div class="picture-mark" id="pic20">
              
                 <img src="images/img-8.jpg" alt="">
                 <span class="relative">
@@ -862,7 +862,7 @@
                     </span>
                 </div>
             </div>
-              <div class="picture-mark">
+              <div class="picture-mark" id="pic21">
              
                 <img src="images/img-6.jpg" alt="">
                 <span class="relative">
@@ -895,7 +895,7 @@
                     </span>
                 </div>
             </div>
-               <div class="picture-mark">
+               <div class="picture-mark" id="pic22">
              
                 <img src="images/img-7.jpg" alt="">
                 <span class="relative">
@@ -958,7 +958,7 @@
                             </div>
                 </div>
             </div>
-               <div class="picture-mark">
+               <div class="picture-mark" id="pic23">
              
                 <img src="images/img-9.jpg" alt="">
                 <span class="relative">
@@ -991,7 +991,7 @@
                     </span>
                 </div>
             </div>
-            <div class="picture-mark">
+            <div class="picture-mark" id="pic28">
              
                 <img src="images/img-10.jpg" alt="">
                 <span class="relative">
@@ -1024,7 +1024,7 @@
                     </span>
                 </div>
             </div>
-             <div class="picture-mark">
+             <div class="picture-mark" id="pic27">
              
                 <img src="images/img-11.jpg" alt="">
                 <span class="relative">
@@ -1057,7 +1057,7 @@
                     </span>
                 </div>
             </div>
-               <div class="picture-mark">
+               <div class="picture-mark" id="pic24">
              
                 <img src="images/img-12.jpg" alt="">
                 <span class="relative">
@@ -1091,7 +1091,7 @@
                 </div>
             </div>
             
-             <div class="picture-mark">
+             <div class="picture-mark" id="pic25">
              
                 <img src="images/img-13.jpg" alt="">
                 <span class="relative">
@@ -1158,7 +1158,7 @@
                 </div>
             </div>
             
-        <div class="picture-mark">
+        <div class="picture-mark" id="pic26">
              
                 <img src="images/img-15.jpg" alt="">
                 <span class="relative">
