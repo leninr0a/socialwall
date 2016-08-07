@@ -74,11 +74,20 @@ $(function(){
     });
     
     
-    
+    //Modify the number of columns to be displayed
     $('#columns-number').on("input change",function(){
         var columns = $('#columns-number').val();
         hideAndShowRow(columns);
     });
+    
+    
+    //When Launch button is clicked
+    $('#launch-button').click(function(){
+        
+      post($('input[name=check-theme]:checked').val(),{columns:$('#columns-number').val()});  
+    });
+    
+    
 });
 
 function hideAndShowRow(column){
@@ -99,4 +108,25 @@ function addCloseFunction(){
 //Cliean the input which id is receive by parameter
 function cleanInput(idInput){
     $(idInput).val('');
+}
+
+
+//Create a form to post the content to an specific URL
+function post(path,parameters){
+    var form=$('<form></form>');
+    
+    form.attr("method","post");
+    form.attr("action",path);
+    form.attr("target","_blank");
+    
+    $.each(parameters,function(key,value){
+        var field = $('<input></input');
+        field.attr("type","hidden");
+        field.attr("name",key);
+        field.attr("value",value);
+        form.append(field);
+    });
+    
+    $(document.body).append(form);
+    form.submit();
 }

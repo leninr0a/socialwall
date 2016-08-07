@@ -97,6 +97,8 @@
                      </div>
                  </div>
                  
+                 <!-- INIT FORM -->
+                 <form action="index.php" method="post" target="_blank">
                   
                   <div class="row pool">
                      <div class="col-xs-8 col-xs-offset-2">
@@ -118,15 +120,15 @@
                          <div class="row theme-styles">
                              <div class="col-xs-4 text-center theme">
                                  <img src="images/theme-1.jpg" class="img-responsive" alt="">
-                                White<input type="radio" name="check-theme" value="index.php" checked>
+                                White<input type="radio" name="check-theme" id="radio1" value="index.php"checked >
                              </div>
                              <div class="col-xs-4 text-center theme">
                                  <img src="images/theme-2.jpg" value="index2.php" class="img-responsive" alt="">
-                                 WhiteBorderer<input type="radio" name="check-theme">
+                                 WhiteBorderer<input type="radio" id="radio2" value="index2.php" name="check-theme">
                              </div>
                              <div class="col-xs-4 text-center theme">
                                  <img src="images/theme-3.jpg" value="index3.php" class="img-responsive" alt="">
-                                 BlackBorderer<input type="radio" name="check-theme">
+                                 BlackBorderer<input type="radio" id="radio3" value="index3.php" name="check-theme">
                              </div>
                          </div>
                      </div>
@@ -192,10 +194,10 @@
                  </div>
                 <div class="row">
                           <div class="col-xs-12 text-center">
-                              <input type="button" class="btn btn-success launcher" value="Launch SocialWall">
+                              <input type="button" class="btn btn-success launcher" value="Launch SocialWall" id="launch-button">
                           </div>
                       </div>
-                
+                </form><!-- END OF THE FORM -->
             </div>
         </div>
     </section>

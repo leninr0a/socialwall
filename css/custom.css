@@ -41,17 +41,19 @@ h1.title{
 }
 
 .pictures .container-fluid{
-    
-    column-gap: 0px;
     padding-top:5px;
+}
+
+.picture-mark .row{
+    padding:5px;
 }
 
 .picture-mark,
 .twitter-mark,
 .facebook-mark{
-    display: inline-block;
-    width:400x;
-    margin:5px;
+    display:inline-block;
+    width:100%;
+    margin:10px 5px;
     background: #fff;
     color:#000;
     padding:0px;

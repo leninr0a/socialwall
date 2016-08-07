@@ -1,6 +1,6 @@
 <?php
-    if(isset($_GET["columns"])){
-        $columns = $_GET["columns"];
+    if(isset($_POST["columns"])){
+        $columns = $_POST["columns"];
         echo "<style>
                     .pictures .container-fluid{
                     -webkit-column-count: $columns;

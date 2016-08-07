@@ -17,6 +17,9 @@
     
     <!-- FontAwesome -->
     <link rel="stylesheet" href="css/font-awesome/css/font-awesome.min.css">
+    <!-- ColumnsController -->
+    
+   <?php require("controllers/columnscontroller.php"); ?>
 </head>
 <body>
    <!-- ===== HEADER ======== -->
@@ -30,7 +33,7 @@
         </div>            
     </header>
     <!-- ==================== -->
-    
+     
     
     
     <!-- ===== PICTURES ===== -->   
