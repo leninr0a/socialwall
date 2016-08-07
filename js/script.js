@@ -1,5 +1,5 @@
 $(function(){
-    //scrollDownToTop();
+    scrollDownToTop();
     //fadingEffect();
    
     
